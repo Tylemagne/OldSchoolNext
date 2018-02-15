@@ -2,6 +2,7 @@
 An exploration into how Old School RuneScape might evolve from its current Java engine into Unity3D.
 
 # Feature Goals
+* No framerate cap
 * Functional UI buttons, text, etc
 * Bitmap font support
 * Basic sound effects

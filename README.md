@@ -13,4 +13,4 @@ An exploration into how Old School RuneScape might evolve from its current Java 
 * Login screen with working torches
 * Multiplatform functionality
 * Unlimited framerate
-* No ripped assets - create or locate free ones
+* No ripped 3D, music, or texture assets - create or locate free ones

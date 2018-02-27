@@ -146,8 +146,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5, y: 36}
-  m_SizeDelta: {x: 330.21, y: 54.6}
+  m_SizeDelta: {x: 553.01, y: 149.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &47239836
 MonoBehaviour:
@@ -161,7 +160,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0, b: 0.93103456, a: 1}
+  m_Color: {r: 1, g: 0.3602941, b: 0.8235293, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -181,11 +180,16 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Welcome to Old School Next v0.1!
+  m_Text: 'Old School Next v0.2 --- GitHub.com/tylemagne/oldschoolnext
 
-    GitHub.com/tylemagne/oldschoolnext
 
-    This is the first version. Literally nothing works.'
+    OSN is a project aimed at exploring the possibility of OSRS moving to Unity. The
+    days of Java are limited. In many ways, Java is already dead and gone. It''s slow
+    and buggy. Yet, here we are. Our beloved game still runs in Java, which continues
+    to feel older with each day that passes. Porting to a new engine while maintaining
+    the charm and beauty of the original will be a challenge, but it''s possible with
+    the power and customization of Unity. Hopefully, someday, Jagex will be able to
+    migrate to Unity. Hopefully, this will have helped.'
 --- !u!222 &47239837
 CanvasRenderer:
   m_ObjectHideFlags: 0

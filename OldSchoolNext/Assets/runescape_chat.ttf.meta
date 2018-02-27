@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: d86d496874c8f1f43aa7958638043f3b
+timeCreated: 1518742078
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: RuneScape Chat
+  fontNames:
+  - RuneScape Chat
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

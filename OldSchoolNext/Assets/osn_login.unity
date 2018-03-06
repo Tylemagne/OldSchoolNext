@@ -241,7 +241,7 @@ RectTransform:
   m_Children:
   - {fileID: 1402115864}
   m_Father: {fileID: 1786239887}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -268,7 +268,7 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 1, g: 0.98012173, b: 0.89705884, a: 1}
+    m_HighlightedColor: {r: 1, g: 0.86369187, b: 0.29411763, a: 1}
     m_PressedColor: {r: 0.6102941, g: 0.6102941, b: 0.6102941, a: 1}
     m_DisabledColor: {r: 0.33823532, g: 0.33823532, b: 0.33823532, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -516,17 +516,17 @@ RectTransform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 351314759}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1766393137}
-  m_RootOrder: 6
+  m_Father: {fileID: 1786239887}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.9, y: -2.8}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 4.9, y: 16.457941}
+  m_SizeDelta: {x: 227.52, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &351314761
 MonoBehaviour:
@@ -568,13 +568,13 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Welcome to RuneScape
+  m_Text: Welcome to OldSchoolNext
 --- !u!222 &351314763
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -611,7 +611,7 @@ RectTransform:
   m_Children:
   - {fileID: 1559476869}
   m_Father: {fileID: 1786239887}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -638,7 +638,7 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 1, g: 0.98012173, b: 0.89705884, a: 1}
+    m_HighlightedColor: {r: 1, g: 0.86369187, b: 0.29411763, a: 1}
     m_PressedColor: {r: 0.6102941, g: 0.6102941, b: 0.6102941, a: 1}
     m_DisabledColor: {r: 0.33823532, g: 0.33823532, b: 0.33823532, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -885,7 +885,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -1547547494
+  randomSeed: 187911211
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -1037,8 +1037,8 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 0.05
-      minScalar: 0.04
+      scalar: 0.07
+      minScalar: 0.06
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -1543,7 +1543,7 @@ ParticleSystem:
           outSlope: -0.69376683
           tangentMode: 0
         - serializedVersion: 2
-          time: 0.029396024
+          time: 0.07256315
           value: 1
           inSlope: -0.7337332
           outSlope: -0.7337332
@@ -4415,7 +4415,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New User
+  m_Text: About OSN
 --- !u!222 &1402115866
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4721,7 +4721,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Existing User
+  m_Text: Test
 --- !u!222 &1559476872
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4819,7 +4819,6 @@ RectTransform:
   - {fileID: 47239835}
   - {fileID: 163626547}
   - {fileID: 2144494803}
-  - {fileID: 351314760}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4855,6 +4854,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 351314760}
   - {fileID: 130762903}
   - {fileID: 787874541}
   m_Father: {fileID: 1766393137}
@@ -5029,7 +5029,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -1118365086
+  randomSeed: 908128373
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -5181,8 +5181,8 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 0.05
-      minScalar: 0.04
+      scalar: 0.07
+      minScalar: 0.06
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -5687,7 +5687,7 @@ ParticleSystem:
           outSlope: -0.69376683
           tangentMode: 0
         - serializedVersion: 2
-          time: 0.029396024
+          time: 0.07256315
           value: 1
           inSlope: -0.7337332
           outSlope: -0.7337332
